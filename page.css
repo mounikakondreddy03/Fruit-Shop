@@ -1,0 +1,144 @@
+body {
+    background-color: rgba(237, 226, 226, 0.099);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header-left img {
+    width: 90px;
+    height: 50px;
+}
+.header {
+    background-color: whitesmoke;
+    position: fixed;
+    /* float: inline-end; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.header-left {
+    display: flex;
+}
+.header-left h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: red;
+}
+.header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about p, .image{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 250px 20px 250px;
+}
+.variety {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.card-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: orangered;
+    z-index: -1;
+}
+.content {
+    width: 100%;
+}
+.service img {
+    opacity: 0.7;
+}
+.fresh, .smily {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    padding-right: 25px;
+}
+.cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17%;
+}
+.fresh, .cart, .smily {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+.content {
+    padding-left: 25px;
+    gap: 15px;
+    margin-top: 70px;
+}
+.content h3 {
+    font-size: 50px;
+}
+.benefit {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+.contact {
+    background-color: orangered;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact h2, #text{
+    font-size: 35px;
+    padding-top: 150px;
+}
+.email {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#mail {
+    padding: 1% 5% 1% 1%;
+    font-size: 20px;
+    border: none;
+}
