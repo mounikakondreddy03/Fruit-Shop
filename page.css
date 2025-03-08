@@ -2,11 +2,6 @@ body {
     background-color: rgba(237, 226, 226, 0.099);
     margin: 0;
     font-family: Arial, sans-serif;
-    padding-top: 80px;
-}
-img {
-    max-width: 100%;
-    height: auto;
 }
 .header-left img {
     width: 90px;
@@ -49,10 +44,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.about p {
-    text-align: left;
-    max-width: 80%;
 }
 .about p, .image{
     font-size: 20px;
@@ -149,17 +140,4 @@ img {
     padding: 1% 5% 1% 1%;
     font-size: 20px;
     border: none;
-}
-#more {
-    background-color: orangered;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-#more:hover {
-    background-color: darkred;
 }
